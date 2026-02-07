@@ -4,15 +4,17 @@
     "type": "module",
     "homepage": "https://Viang41.github.io/react-product-gallery",
     "scripts": {
-        "dev": "vite",
+        "dev": "vite --host 0.0.0.0",
         "build": "vite build",
         "preview": "vite preview",
+        "start": "serve -s dist -l $PORT",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d dist"
     },
     "dependencies": {
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "serve": "^14.2.5"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.2.1",
