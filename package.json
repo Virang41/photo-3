@@ -2,7 +2,7 @@
     "name": "usefetch-product-gallery",
     "version": "1.0.0",
     "type": "module",
-    "homepage": "https://[YOUR-USERNAME].github.io/react-product-gallery",
+    "homepage": "https://Viang41.github.io/react-product-gallery",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
